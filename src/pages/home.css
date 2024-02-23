@@ -1,0 +1,63 @@
+.card-group {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr)); /* Responsive grid */
+    gap: 50px; /* Reduce gap to make space for more cards */
+    max-width: 1200px; /* Set a maximum width for the container */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 10px;
+}
+@media (max-width:768px){
+    .card-group{
+        padding-left: 15px !important;
+        max-width: 100vw !important;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid */
+
+    }
+    .card{
+        max-width: 350px !important;
+    }
+}
+.card {
+    box-shadow: 5px 5px rgba(255, 0, 0, 0.801) ;
+    margin-top: 40px;
+    background-color: rgb(88, 77, 121);
+    width: 100%; /* Allow cards to fill the grid cell */
+    max-width: 50rem; /* Limit maximum width of cards */
+    height: 30rem;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.card:hover {
+    background-color: black;
+    color: white;
+    box-shadow: 10px white;
+    margin-top: -2px;
+    transition: all 2s ease;
+    cursor: pointer;
+}
+
+.Resdata{
+    display: grid;
+    grid-template-columns: auto auto auto auto;   
+    margin-top: -10px;
+}
+
+.btn{
+    float: left;
+    height: 4rem;
+    width: 4rem;
+    margin-left: 30px;
+    border-radius: 50%;
+    border: 5px solid red;
+    background-color: black;
+    color: white;
+}
+
+.text-btn{
+    font-weight: bold;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
