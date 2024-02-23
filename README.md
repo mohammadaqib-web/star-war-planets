@@ -2,7 +2,7 @@ To get started with this application, follow these steps:
 
 Clone this repository to your local machine: git clone https://github.com/mohammadaqib-web/star-war-planets.git
 
-Navigate to the project directory: cd your-repository
+Navigate to the project directory
 
 Install dependencies: npm install
 
