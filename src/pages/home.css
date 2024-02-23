@@ -15,6 +15,10 @@
     }
     .card{
         max-width: 350px !important;
+        height: 28rem !important;
+    }
+    .Resdata{
+        grid-template-columns: auto auto auto !important;   
     }
 }
 .card {
